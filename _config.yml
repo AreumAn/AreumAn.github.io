@@ -95,10 +95,10 @@ analytics:
 # Site Author
 author:
   name             : "Areum An"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/areum-avatar.png"
   bio              : "One Thing Leads To Another"
   location         : "Toronto"
-  email            : "areum.an.0928@gmail.com"
+  # email            : "areum.an.0928@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
