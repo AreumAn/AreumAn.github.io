@@ -3,7 +3,7 @@
 ---
 
 @charset "utf-8";
-$link-color: #d67f05;
+$link-color: #ffbc40;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -20,6 +20,11 @@ $link-color: #d67f05;
   font-size: 1.2em;
 }
 
+.author__urls a:hover {
+  color: $link-color;
+  text-decoration: none;
+}
+
 .social-icons {
   .fa-linkedin {
     color: #3d4144;
@@ -28,15 +33,28 @@ $link-color: #d67f05;
 
 .page__content {
   h2 {
-    color: #d67f05;
+    color: $link-color;
   }
 }
+
+.archive__subtitle{
+  font-size: 1.2em;
+  color: $link-color;
+}
+
+.archive__item-title.no_toc {
+  a {
+    font-size: 0.8em;
+    color: #3b5998;
+  }
+}
+
 
 @include breakpoint($medium) {
   .sidebar {
     width: calc(200px - 1em);
   }
-  .page, .breadcrumbs ol, .archive {
+  .page, .breadcrumbs ol, .archive, .page__related {
     width: calc(100% - 200px);
   }
   .sidebar__right {
