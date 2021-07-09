@@ -3,6 +3,7 @@
 ---
 
 @charset "utf-8";
+$link-color: #d67f05;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -14,3 +15,34 @@
   font-weight: normal;
   font-style: normal;
 }
+
+#site-nav, .sidebar, .toc__menu a  {
+  font-size: 1.2em;
+}
+
+.social-icons {
+  .fa-linkedin {
+    color: #3d4144;
+  }
+}
+
+.page__content {
+  h2 {
+    color: #d67f05;
+  }
+}
+
+@include breakpoint($medium) {
+  .sidebar {
+    width: calc(200px - 1em);
+  }
+  .page, .breadcrumbs ol, .archive {
+    width: calc(100% - 200px);
+  }
+  .sidebar__right {
+    &.sticky {
+      padding-left: 2.5em;
+    }
+  }
+}
+
