@@ -1,4 +1,296 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-10T01:25:20-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Areum An</title><subtitle>Areum An's blog for sharing anything I want</subtitle><author><name>Areum An</name></author><entry><title type="html">엔지니어팀 문화</title><link href="http://localhost:4000/work-culture/engineering-work-culture/" rel="alternate" type="text/html" title="엔지니어팀 문화" /><published>2021-07-09T00:00:00-04:00</published><updated>2021-07-10T00:00:00-04:00</updated><id>http://localhost:4000/work-culture/engineering-work-culture</id><content type="html" xml:base="http://localhost:4000/work-culture/engineering-work-culture/">&lt;h2 id=&quot;회사-소개&quot;&gt;회사 소개&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-07-25T19:29:22-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Areum An</title><subtitle>Areum An's blog for sharing anything I want</subtitle><author><name>Areum An</name></author><entry><title type="html">Markdown Syntax for blog</title><link href="http://localhost:4000/coding/markdown-syntax/" rel="alternate" type="text/html" title="Markdown Syntax for blog" /><published>2021-07-12T00:00:00-04:00</published><updated>2021-07-25T00:00:00-04:00</updated><id>http://localhost:4000/coding/markdown-syntax</id><content type="html" xml:base="http://localhost:4000/coding/markdown-syntax/">&lt;h2 id=&quot;header&quot;&gt;Header&lt;/h2&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;line-break&quot;&gt;Line Break&lt;/h2&gt;
+&lt;h3 id=&quot;️-br&quot;&gt;▶️ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;br&amp;gt;&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Hello &lt;br /&gt; This is Areum&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello &amp;lt;br /&amp;gt; This is Areum
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;️-two-extra-spaces--enter&quot;&gt;▶️ two extra spaces + enter&lt;/h3&gt;
+&lt;p&gt;end a line with two or more spaces, and then type return&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello  
+This is Areum
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;text-emphasis&quot;&gt;Text Emphasis&lt;/h2&gt;
+&lt;h3 id=&quot;️-bold&quot;&gt;▶️ Bold&lt;/h3&gt;
+&lt;p&gt;I just love &lt;strong&gt;bold text&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;I just love **bold text**.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;️-italic&quot;&gt;▶️ Italic&lt;/h3&gt;
+&lt;p&gt;add one asterisk or underscore before and after a word or phrase&lt;/p&gt;
+
+&lt;p&gt;Italicized text is the &lt;em&gt;cat’s meow&lt;/em&gt;.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Italicized text is the *cat's meow*.
+
+Italicized text is the _cat's meow_.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h2&gt;
+&lt;h3 id=&quot;️-single-line&quot;&gt;▶️ Single line&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;single line&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; single line
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;️-multiple-line&quot;&gt;▶️ multiple line&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;multiple line: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; multiple line: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;️-nested-blockquotes&quot;&gt;▶️ nested Blockquotes&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Blockquotes&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;nested Blockquotes&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; Blockquotes
+  &amp;gt;&amp;gt; nested Blockquotes
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;️-blockquotes-with-other-elements&quot;&gt;▶️ Blockquotes with Other Elements&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The quarterly results look great!&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Revenue was off the chart.&lt;/li&gt;
+    &lt;li&gt;Profits were higher than ever.&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;&lt;em&gt;Everything&lt;/em&gt; is going according to &lt;strong&gt;plan&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; #### The quarterly results look great!
+&amp;gt;
+&amp;gt; - Revenue was off the chart.
+&amp;gt; - Profits were higher than ever.
+&amp;gt;
+&amp;gt;  *Everything* is going according to **plan**.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;cite-reference&quot;&gt;Cite reference&lt;/h2&gt;
+&lt;p class=&quot;small&quot;&gt;&lt;cite&gt;Steve Jobs&lt;/cite&gt; — Apple Worldwide Developers’ Conference, 1997&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;cite&amp;gt;Steve Jobs&amp;lt;/cite&amp;gt; --- Apple Worldwide Developers' Conference, 1997
+{: .small}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;code-blocks&quot;&gt;Code Blocks&lt;/h2&gt;
+&lt;h3 id=&quot;️-single-line-or-word&quot;&gt;▶️ single line or word&lt;/h3&gt;
+&lt;p&gt;To denote a word or phrase as code, enclose it in backticks (`)&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;console.log('test')&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;️-muttiple-lines&quot;&gt;▶️ muttiple lines&lt;/h3&gt;
+&lt;p&gt;enclose it in triple backticks (```)&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;table&quot;&gt;Table&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Horizontal align
+    &lt;ul&gt;
+      &lt;li&gt;Left: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;|:—|&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Center: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;|:—:|&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Right: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;|—:|&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;a&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;b&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;c&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| a   | b   | c   |
+| 1   | 2   | 3   |
+|=============================|
+| Foot1   | Foot2   | Foot3   |
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;list&quot;&gt;List&lt;/h2&gt;
+&lt;h3 id=&quot;️-unordered-lists-nested&quot;&gt;▶️ Unordered Lists (Nested)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;List item one
+    &lt;ul&gt;
+      &lt;li&gt;List item one
+        &lt;ul&gt;
+          &lt;li&gt;List item one&lt;/li&gt;
+          &lt;li&gt;List item two&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;List item two&lt;/li&gt;
+      &lt;li&gt;List item three&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;List item two&lt;/li&gt;
+  &lt;li&gt;List item three&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* List item one 
+    * List item one 
+        * List item one
+        * List item two
+    * List item two
+    * List item three
+* List item two
+* List item three
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;️-ordered-list-nested&quot;&gt;▶️ Ordered List (Nested)&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;List item one
+    &lt;ol&gt;
+      &lt;li&gt;List item one
+        &lt;ol&gt;
+          &lt;li&gt;List item one&lt;/li&gt;
+          &lt;li&gt;List item two&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;List item two&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;List item two&lt;/li&gt;
+  &lt;li&gt;List item three&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. List item one 
+    1. List item one 
+        1. List item one
+        2. List item two
+    2. List item two
+2. List item two
+3. List item three
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;notices&quot;&gt;Notices&lt;/h2&gt;
+
+&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice}&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;p class=&quot;notice--primary&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--primary}&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--info}&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--warning}&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;p class=&quot;notice--success&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--success}&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;p class=&quot;notice--danger&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; This paragraph of text has been &lt;a href=&quot;#&quot;&gt;emphasized&lt;/a&gt; with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--danger}&lt;/code&gt; class.&lt;/p&gt;
+
+&lt;p&gt;Change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice}&lt;/code&gt; class to whatever you want - such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--info}&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;{: .notice--success}&lt;/code&gt; etc.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;**Watch out!** This paragraph of text has been [emphasized](#) with the notice class.
+{: .notice}
+
+**Watch out!** This paragraph of text has been [emphasized](#) with the notice class.
+{: .notice--danger}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;button&quot;&gt;Button&lt;/h2&gt;
+&lt;h3 id=&quot;️-color&quot;&gt;▶️ Color&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;#link&quot; class=&quot;btn&quot;&gt;Default Button Text&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--primary&quot;&gt;Primary Button Text&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--success&quot;&gt;Success Button Text&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--warning&quot;&gt;Warning Button Text&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--danger&quot;&gt;Danger Button Text&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--info&quot;&gt;Info Button Text&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--inverse&quot;&gt;Inverse Button&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--light-outline&quot;&gt;Light Outline Button&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Default Button Text](#link){: .btn}
+[Primary Button Text](#link){: .btn .btn--primary}
+[Success Button Text](#link){: .btn .btn--success}
+[Warning Button Text](#link){: .btn .btn--warning}
+[Danger Button Text](#link){: .btn .btn--danger}
+[Info Button Text](#link){: .btn .btn--info}
+[Inverse Button](#link){: .btn .btn--inverse}
+[Light Outline Button](#link){: .btn .btn--light-outline}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;️-size&quot;&gt;▶️ Size&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;#link&quot; class=&quot;btn btn--primary btn--x-large&quot;&gt;X-Large Button&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--primary btn--large&quot;&gt;Large Button&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--primary&quot;&gt;Default Button&lt;/a&gt;
+&lt;a href=&quot;#link&quot; class=&quot;btn btn--primary btn--small&quot;&gt;Small Button&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[X-Large Button](#link){: .btn .btn--primary .btn--x-large}
+[Large Button](#link){: .btn .btn--primary .btn--large}
+[Default Button](#link){: .btn .btn--primary }
+[Small Button](#link){: .btn .btn--primary .btn--small}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+
+&lt;p&gt;This is my &lt;a href=&quot;https://github.com/AreumAn&quot; title=&quot;Areum An github&quot;&gt;github&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is my [github](https://github.com/AreumAn &quot;Areum An github&quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;“Areum An github” is a title of link but you don’t need to add.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;This is my [github](https://github.com/AreumAn)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;To quickly turn a URL or email address into a link, enclose it in angle brackets.
+&lt;a href=&quot;https://github.com/AreumAn&quot;&gt;https://github.com/AreumAn&lt;/a&gt;
+&lt;a href=&quot;mailto:fake@example.com&quot;&gt;fake@example.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;https://github.com/AreumAn&amp;gt;
+&amp;lt;fake@example.com&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;images&quot;&gt;Images&lt;/h2&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![alt text](/assets/images/test.png &quot;image title&quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;️-linking-images&quot;&gt;▶️ Linking Images&lt;/h3&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[![alt text](/assets/images/test.jpg &quot;image title&quot;)](url)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;-reference&quot;&gt;📚 Reference&lt;/h2&gt;
+
+&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Reference list&lt;/strong&gt;&lt;br /&gt;
+&lt;cite&gt;[Basic Syntax]&lt;/cite&gt; - &lt;a href=&quot;https://www.markdownguide.org/basic-syntax/&quot; class=&quot;small&quot;&gt;https://www.markdownguide.org/basic-syntax/&lt;/a&gt;&lt;br /&gt;
+&lt;cite&gt;[Markup: HTML Tags and Formatting]&lt;/cite&gt; - &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/&quot; class=&quot;small&quot;&gt;https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/&lt;/a&gt;&lt;/p&gt;</content><author><name>Areum An</name></author><category term="coding" /><category term="blog" /><category term="github" /><category term="markdown" /><summary type="html">HTML tags and formatting for blog - jekyll: minimal mistakes theme</summary></entry><entry><title type="html">엔지니어팀 문화</title><link href="http://localhost:4000/work-culture/engineering-work-culture/" rel="alternate" type="text/html" title="엔지니어팀 문화" /><published>2021-07-09T00:00:00-04:00</published><updated>2021-07-10T00:00:00-04:00</updated><id>http://localhost:4000/work-culture/engineering-work-culture</id><content type="html" xml:base="http://localhost:4000/work-culture/engineering-work-culture/">&lt;h2 id=&quot;회사-소개&quot;&gt;회사 소개&lt;/h2&gt;
 &lt;p&gt;현재 Growth Engineer로 다니고 있는 회사는 e-commerce 회사로 조금 특별한 제품들을 착한 가격에 제공하고있다.&lt;/p&gt;
 
 &lt;p&gt;여기서 말하는 조금 특별한 제품이라 할 것 같으면 접시에 붙여서 사용하는 케챱그릇(Dip Clip), 반짝이는 불이 나오는 장갑 등등 특별하고 있으면 좋을 것 같은 제품들이다.&lt;/p&gt;

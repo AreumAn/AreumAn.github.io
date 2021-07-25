@@ -1,0 +1,891 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.23.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Markdown Syntax for blog | Areum An</title>
+<meta name="description" content="HTML tags and formatting for blog - jekyll: minimal mistakes theme">
+
+
+  <meta name="author" content="Areum An">
+  
+  <meta property="article:author" content="Areum An">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Areum An">
+<meta property="og:title" content="Markdown Syntax for blog">
+<meta property="og:url" content="http://localhost:4000/coding/markdown-syntax/">
+
+
+  <meta property="og:description" content="HTML tags and formatting for blog - jekyll: minimal mistakes theme">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2021-07-12T00:00:00-04:00">
+
+
+
+  <meta property="article:modified_time" content="2021-07-25T00:00:00-04:00">
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/coding/markdown-syntax/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Areum An",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Areum An Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Areum An Blog :: One Thing Leads To Another
+          <span class="site-subtitle">자꾸 까먹어서 하는 블로그</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+  
+    
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="http://localhost:4000/" itemprop="item"><span itemprop="name">Home</span></a>
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#coding" itemprop="item"><span itemprop="name">Coding</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">Markdown Syntax for blog</li>
+      
+    
+  </ol>
+</nav>
+
+  
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/areum-avatar.png" alt="Areum An" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Areum An</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>어쩌다 보니 뭐 이것저것</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Toronto</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:areum.an.0928@gmail.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://areuman.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Website</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/AreumAn" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/areum-an-b34a7612b/?locale=en_US" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Markdown Syntax for blog">
+    <meta itemprop="description" content="HTML tags and formatting for blog - jekyll: minimal mistakes theme">
+    <meta itemprop="datePublished" content="2021-07-12T00:00:00-04:00">
+    <meta itemprop="dateModified" content="2021-07-25T00:00:00-04:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Markdown Syntax for blog
+</h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#header">Header</a></li><li><a href="#line-break">Line Break</a><ul><li><a href="#️-br">▶️ &lt;br&gt;</a></li><li><a href="#️-two-extra-spaces--enter">▶️ two extra spaces + enter</a></li></ul></li><li><a href="#text-emphasis">Text Emphasis</a><ul><li><a href="#️-bold">▶️ Bold</a></li><li><a href="#️-italic">▶️ Italic</a></li></ul></li><li><a href="#blockquotes">Blockquotes</a><ul><li><a href="#️-single-line">▶️ Single line</a></li><li><a href="#️-multiple-line">▶️ multiple line</a></li><li><a href="#️-nested-blockquotes">▶️ nested Blockquotes</a></li><li><a href="#️-blockquotes-with-other-elements">▶️ Blockquotes with Other Elements</a></li></ul></li><li><a href="#cite-reference">Cite reference</a></li><li><a href="#code-blocks">Code Blocks</a><ul><li><a href="#️-single-line-or-word">▶️ single line or word</a></li><li><a href="#️-muttiple-lines">▶️ muttiple lines</a></li></ul></li><li><a href="#table">Table</a></li><li><a href="#list">List</a><ul><li><a href="#️-unordered-lists-nested">▶️ Unordered Lists (Nested)</a></li><li><a href="#️-ordered-list-nested">▶️ Ordered List (Nested)</a></li></ul></li><li><a href="#notices">Notices</a></li><li><a href="#button">Button</a><ul><li><a href="#️-color">▶️ Color</a></li><li><a href="#️-size">▶️ Size</a></li></ul></li><li><a href="#links">Links</a></li><li><a href="#images">Images</a><ul><li><a href="#️-linking-images">▶️ Linking Images</a></li></ul></li><li><a href="#-reference">📚 Reference</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="header">Header</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+</code></pre></div></div>
+
+<h2 id="line-break">Line Break</h2>
+<h3 id="️-br">▶️ <code class="language-plaintext highlighter-rouge">&lt;br&gt;</code></h3>
+<p>Hello <br /> This is Areum</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hello &lt;br /&gt; This is Areum
+</code></pre></div></div>
+<h3 id="️-two-extra-spaces--enter">▶️ two extra spaces + enter</h3>
+<p>end a line with two or more spaces, and then type return</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Hello  
+This is Areum
+</code></pre></div></div>
+
+<h2 id="text-emphasis">Text Emphasis</h2>
+<h3 id="️-bold">▶️ Bold</h3>
+<p>I just love <strong>bold text</strong>.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I just love **bold text**.
+</code></pre></div></div>
+<h3 id="️-italic">▶️ Italic</h3>
+<p>add one asterisk or underscore before and after a word or phrase</p>
+
+<p>Italicized text is the <em>cat’s meow</em>.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Italicized text is the *cat's meow*.
+
+Italicized text is the _cat's meow_.
+</code></pre></div></div>
+
+<h2 id="blockquotes">Blockquotes</h2>
+<h3 id="️-single-line">▶️ Single line</h3>
+<blockquote>
+  <p>single line</p>
+</blockquote>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; single line
+</code></pre></div></div>
+<h3 id="️-multiple-line">▶️ multiple line</h3>
+<blockquote>
+  <p>multiple line: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+</blockquote>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; multiple line: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+</code></pre></div></div>
+<h3 id="️-nested-blockquotes">▶️ nested Blockquotes</h3>
+<blockquote>
+  <p>Blockquotes</p>
+  <blockquote>
+    <p>nested Blockquotes</p>
+  </blockquote>
+</blockquote>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; Blockquotes
+  &gt;&gt; nested Blockquotes
+</code></pre></div></div>
+<h3 id="️-blockquotes-with-other-elements">▶️ Blockquotes with Other Elements</h3>
+
+<blockquote>
+  <p>The quarterly results look great!</p>
+
+  <ul>
+    <li>Revenue was off the chart.</li>
+    <li>Profits were higher than ever.</li>
+  </ul>
+
+  <p><em>Everything</em> is going according to <strong>plan</strong>.</p>
+</blockquote>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; #### The quarterly results look great!
+&gt;
+&gt; - Revenue was off the chart.
+&gt; - Profits were higher than ever.
+&gt;
+&gt;  *Everything* is going according to **plan**.
+</code></pre></div></div>
+
+<h2 id="cite-reference">Cite reference</h2>
+<p class="small"><cite>Steve Jobs</cite> — Apple Worldwide Developers’ Conference, 1997</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;cite&gt;Steve Jobs&lt;/cite&gt; --- Apple Worldwide Developers' Conference, 1997
+{: .small}
+</code></pre></div></div>
+
+<h2 id="code-blocks">Code Blocks</h2>
+<h3 id="️-single-line-or-word">▶️ single line or word</h3>
+<p>To denote a word or phrase as code, enclose it in backticks (`)</p>
+
+<p><code class="language-plaintext highlighter-rouge">console.log('test')</code></p>
+
+<h3 id="️-muttiple-lines">▶️ muttiple lines</h3>
+<p>enclose it in triple backticks (```)</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<h2 id="table">Table</h2>
+<ul>
+  <li>Horizontal align
+    <ul>
+      <li>Left: <code class="language-plaintext highlighter-rouge">|:—|</code></li>
+      <li>Center: <code class="language-plaintext highlighter-rouge">|:—:|</code></li>
+      <li>Right: <code class="language-plaintext highlighter-rouge">|—:|</code></li>
+    </ul>
+  </li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Header1</th>
+      <th style="text-align: center">Header2</th>
+      <th style="text-align: right">Header3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">a</td>
+      <td style="text-align: center">b</td>
+      <td style="text-align: right">c</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">1</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: right">3</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td style="text-align: left">Foot1</td>
+      <td style="text-align: center">Foot2</td>
+      <td style="text-align: right">Foot3</td>
+    </tr>
+  </tfoot>
+</table>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| a   | b   | c   |
+| 1   | 2   | 3   |
+|=============================|
+| Foot1   | Foot2   | Foot3   |
+</code></pre></div></div>
+
+<h2 id="list">List</h2>
+<h3 id="️-unordered-lists-nested">▶️ Unordered Lists (Nested)</h3>
+
+<ul>
+  <li>List item one
+    <ul>
+      <li>List item one
+        <ul>
+          <li>List item one</li>
+          <li>List item two</li>
+        </ul>
+      </li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </li>
+  <li>List item two</li>
+  <li>List item three</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* List item one 
+    * List item one 
+        * List item one
+        * List item two
+    * List item two
+    * List item three
+* List item two
+* List item three
+</code></pre></div></div>
+<h3 id="️-ordered-list-nested">▶️ Ordered List (Nested)</h3>
+
+<ol>
+  <li>List item one
+    <ol>
+      <li>List item one
+        <ol>
+          <li>List item one</li>
+          <li>List item two</li>
+        </ol>
+      </li>
+      <li>List item two</li>
+    </ol>
+  </li>
+  <li>List item two</li>
+  <li>List item three</li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. List item one 
+    1. List item one 
+        1. List item one
+        2. List item two
+    2. List item two
+2. List item two
+3. List item three
+</code></pre></div></div>
+
+<h2 id="notices">Notices</h2>
+
+<p class="notice"><strong>Watch out!</strong> This paragraph of text has been <a href="#">emphasized</a> with the <code class="language-plaintext highlighter-rouge">{: .notice}</code> class.</p>
+
+<p class="notice--primary"><strong>Watch out!</strong> This paragraph of text has been <a href="#">emphasized</a> with the <code class="language-plaintext highlighter-rouge">{: .notice--primary}</code> class.</p>
+
+<p class="notice--info"><strong>Watch out!</strong> This paragraph of text has been <a href="#">emphasized</a> with the <code class="language-plaintext highlighter-rouge">{: .notice--info}</code> class.</p>
+
+<p class="notice--warning"><strong>Watch out!</strong> This paragraph of text has been <a href="#">emphasized</a> with the <code class="language-plaintext highlighter-rouge">{: .notice--warning}</code> class.</p>
+
+<p class="notice--success"><strong>Watch out!</strong> This paragraph of text has been <a href="#">emphasized</a> with the <code class="language-plaintext highlighter-rouge">{: .notice--success}</code> class.</p>
+
+<p class="notice--danger"><strong>Watch out!</strong> This paragraph of text has been <a href="#">emphasized</a> with the <code class="language-plaintext highlighter-rouge">{: .notice--danger}</code> class.</p>
+
+<p>Change <code class="language-plaintext highlighter-rouge">{: .notice}</code> class to whatever you want - such as <code class="language-plaintext highlighter-rouge">{: .notice--info}</code>, <code class="language-plaintext highlighter-rouge">{: .notice--success}</code> etc.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>**Watch out!** This paragraph of text has been [emphasized](#) with the notice class.
+{: .notice}
+
+**Watch out!** This paragraph of text has been [emphasized](#) with the notice class.
+{: .notice--danger}
+</code></pre></div></div>
+
+<h2 id="button">Button</h2>
+<h3 id="️-color">▶️ Color</h3>
+
+<p><a href="#link" class="btn">Default Button Text</a>
+<a href="#link" class="btn btn--primary">Primary Button Text</a>
+<a href="#link" class="btn btn--success">Success Button Text</a>
+<a href="#link" class="btn btn--warning">Warning Button Text</a>
+<a href="#link" class="btn btn--danger">Danger Button Text</a>
+<a href="#link" class="btn btn--info">Info Button Text</a>
+<a href="#link" class="btn btn--inverse">Inverse Button</a>
+<a href="#link" class="btn btn--light-outline">Light Outline Button</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[Default Button Text](#link){: .btn}
+[Primary Button Text](#link){: .btn .btn--primary}
+[Success Button Text](#link){: .btn .btn--success}
+[Warning Button Text](#link){: .btn .btn--warning}
+[Danger Button Text](#link){: .btn .btn--danger}
+[Info Button Text](#link){: .btn .btn--info}
+[Inverse Button](#link){: .btn .btn--inverse}
+[Light Outline Button](#link){: .btn .btn--light-outline}
+</code></pre></div></div>
+<h3 id="️-size">▶️ Size</h3>
+
+<p><a href="#link" class="btn btn--primary btn--x-large">X-Large Button</a>
+<a href="#link" class="btn btn--primary btn--large">Large Button</a>
+<a href="#link" class="btn btn--primary">Default Button</a>
+<a href="#link" class="btn btn--primary btn--small">Small Button</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[X-Large Button](#link){: .btn .btn--primary .btn--x-large}
+[Large Button](#link){: .btn .btn--primary .btn--large}
+[Default Button](#link){: .btn .btn--primary }
+[Small Button](#link){: .btn .btn--primary .btn--small}
+</code></pre></div></div>
+
+<h2 id="links">Links</h2>
+
+<p>This is my <a href="https://github.com/AreumAn" title="Areum An github">github</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is my [github](https://github.com/AreumAn "Areum An github")
+</code></pre></div></div>
+
+<p>“Areum An github” is a title of link but you don’t need to add.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is my [github](https://github.com/AreumAn)
+</code></pre></div></div>
+<p>To quickly turn a URL or email address into a link, enclose it in angle brackets.
+<a href="https://github.com/AreumAn">https://github.com/AreumAn</a>
+<a href="mailto:fake@example.com">fake@example.com</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;https://github.com/AreumAn&gt;
+&lt;fake@example.com&gt;
+</code></pre></div></div>
+
+<h2 id="images">Images</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![alt text](/assets/images/test.png "image title")
+</code></pre></div></div>
+<h3 id="️-linking-images">▶️ Linking Images</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[![alt text](/assets/images/test.jpg "image title")](url)
+</code></pre></div></div>
+
+<h2 id="-reference">📚 Reference</h2>
+
+<p class="notice"><strong>Reference list</strong><br />
+<cite>[Basic Syntax]</cite> - <a href="https://www.markdownguide.org/basic-syntax/" class="small">https://www.markdownguide.org/basic-syntax/</a><br />
+<cite>[Markup: HTML Tags and Formatting]</cite> - <a href="https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/" class="small">https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#coding" class="page__taxonomy-item" rel="tag">coding</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#blog" class="page__taxonomy-item" rel="tag">blog</a><span class="sep">, </span>
+    
+      <a href="/tags/#github" class="page__taxonomy-item" rel="tag">github</a><span class="sep">, </span>
+    
+      <a href="/tags/#markdown" class="page__taxonomy-item" rel="tag">markdown</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-07-25">July 25, 2021</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/work-culture/engineering-work-culture/" class="pagination--pager" title="엔지니어팀 문화
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work-culture/engineering-work-culture/" rel="permalink">엔지니어팀 문화
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">현재 개발자로 일하고 있는 캐나다 토론토에 위치한 e-commerce 회사 개발팀 문화
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/about/" rel="permalink">블로그 시작!
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">토론토(캐나다)에서 공부, 일 하는 이야기
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/AreumAn" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Areum An. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
