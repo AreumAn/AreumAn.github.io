@@ -14,6 +14,6 @@ author_profile: true
 ---
 
 ---
-I am from South Korea an now working in Toronto.  
+I am from South Korea and now working in Toronto.  
 This blog is for recording about my work and life.
 
