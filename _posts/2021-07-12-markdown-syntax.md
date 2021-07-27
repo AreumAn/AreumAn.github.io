@@ -5,7 +5,7 @@ excerpt: "HTML tags and formatting for blog - jekyll: minimal mistakes theme"
 categories:
   - coding
 tags:
-  - [blog, github, markdown]
+  - [blog, github, markdown, jekyll, minimal mistakes theme]
 
 toc: true
 toc_sticky: true
