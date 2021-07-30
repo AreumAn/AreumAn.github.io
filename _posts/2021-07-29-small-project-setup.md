@@ -5,7 +5,7 @@ excerpt: "Quickly setup TypeScript project for small/personal projects"
 categories:
   - practice
 tags:
-  - [javascript, typescript, test, jest, project, set up]
+  - [javascript, typescript, test, jest, project, setup]
 
 toc: true
 toc_sticky: true
