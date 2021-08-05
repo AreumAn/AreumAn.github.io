@@ -9,30 +9,36 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Posts by Category | Areum An</title>
-<meta name="description" content="Areum An’s blog for sharing anything I want">
+<!-- begin _includes/seo.html --><title>[북클럽 리뷰] Clean Architecture - ch1 | Areum An</title>
+<meta name="description" content="인트로, 1장 - 설계와 아키텍쳐란">
 
 
   <meta name="author" content="Areum An">
   
+  <meta property="article:author" content="Areum An">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Areum An">
-<meta property="og:title" content="Posts by Category">
-<meta property="og:url" content="http://localhost:4000/categories/">
+<meta property="og:title" content="[북클럽 리뷰] Clean Architecture - ch1">
+<meta property="og:url" content="http://localhost:4000/review/review-clean-architecture/">
 
 
-  <meta property="og:description" content="Areum An’s blog for sharing anything I want">
-
-
-
+  <meta property="og:description" content="인트로, 1장 - 설계와 아키텍쳐란">
 
 
 
 
 
+
+
+  <meta property="article:published_time" content="2021-08-05T00:00:00-04:00">
+
+
+
+  <meta property="article:modified_time" content="2021-08-05T00:00:00-04:00">
 
 
 
@@ -41,7 +47,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/categories/">
+<link rel="canonical" href="http://localhost:4000/review/review-clean-architecture/">
 
 
 
@@ -114,7 +120,7 @@
 
   </head>
 
-  <body class="layout--categories">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -180,7 +186,17 @@
         <span class="sep">/</span>
       
       
-        <li class="current">Posts by Category</li>
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/categories/#review" itemprop="item"><span itemprop="name">Review</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">[북클럽 리뷰] Clean Architecture - ch1</li>
       
     
   </ol>
@@ -310,225 +326,177 @@
 
 
 
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title">Posts by Category</h1>
-    
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="[북클럽 리뷰] Clean Architecture - ch1">
+    <meta itemprop="description" content="인트로, 1장 - 설계와 아키텍쳐란">
+    <meta itemprop="datePublished" content="2021-08-05T00:00:00-04:00">
+    <meta itemprop="dateModified" content="2021-08-05T00:00:00-04:00">
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">[북클럽 리뷰] Clean Architecture - ch1
+</h1>
+          
+
+  <p class="page__meta">
     
 
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
 
 
+        </header>
+      
 
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#intro">Intro</a></li><li><a href="#introduction">Introduction</a></li><li><a href="#chapter1---설계와-아키텍처란">Chapter1 - 설계와 아키텍처란?</a></li></ul>
 
-<ul class="taxonomy__index">
-  
-    
-      
-        <li>
-          <a href="#blog">
-            <strong>Blog</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="#work-culture">
-            <strong>Work-Culture</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="#coding">
-            <strong>coding</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="#practice">
-            <strong>practice</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="#review">
-            <strong>review</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-  
+            </nav>
+          </aside>
+        
+        <h2 id="intro">Intro</h2>
+<p>회사에서 매주 목요일 북클럽을 진행한다.<br />
+몇 달간 <code class="language-plaintext highlighter-rouge">실용주의 프로그래머</code>로 진행했고, 이번 주부터는 <code class="language-plaintext highlighter-rouge">클린 아키텍처</code>라는 책으로 진행된다.<br />
+<code class="language-plaintext highlighter-rouge">클린 아키텍처</code>는 개발팀 내에서 책을 추천해서 다수결로 선정되었다.<br />
+[<strong>Robert C. Martin의 Clean Architecture</strong>]</p>
+
+<p>매주 2개의 챕터를 읽고 토론하는 방식으로 진행되는데, 가끔 대충 좀 흘려듣기도 하고 그런 게 조금 아까워서 시간이 날 때 조금씩 그 주에 한 북클럽 내용을 정리해 보려고 한다.<br />
+뭐 겸사겸사 영어 단어도 정리하고…</p>
+
+<p>회사에선 물론 원서로 진행해서 아마존에서 구매했다. 혹시나 해서 YES24를 보니 ebook이 있길래 한글 버전도 샀다. 
+아직 책을 다 본 게 아니라서 원서와 한국어 버전이 얼마나 다른지 모르겠지만 일단 1부 소개와 1부-1장은 똑같았다.</p>
+
+<p>자세한 내용을 적는 건 책을 낸 분들의 노력을 무시하는 것 같아서 대충 어떤 내용으로 북클럽이 진행되었는지와 함께 공유했던 내용을 적어보려고 한다.</p>
+
+<h2 id="introduction">Introduction</h2>
+<p>저자는 제대로 된 소프트웨어를 만들면 어떤 이점이 있는지 간단하게 설명한다.</p>
+<ul>
+  <li>적은 인력으로 새로운 기능을 추가, 유지보수</li>
+  <li>빠르고 단순한 변경</li>
+  <li>낮은 결함률</li>
+  <li>최소한의 노력으로 기능, 유연성 등을 극대화</li>
 </ul>
 
+<p>원서에서 이를 유토피아라고 하면서 실제로 저자는 그런 아키텍처 환경에서 일해 보았다고 한다.
+그러면서 그 반대의 경우에서의 경험을 묻는다.</p>
+
+<p>이번 북클럽 진행은 내가 했는데, 1부 소개에서 우리는 형편없는 소프트웨어 설계 속에서 일했던 경험을 공유했다.</p>
+
+<h2 id="chapter1---설계와-아키텍처란">Chapter1 - 설계와 아키텍처란?</h2>
+<p>저자는 좋은 소프트웨어 설계의 목표를 아래와 같이 정의한다.</p>
+<blockquote>
+  <p>소프트웨어 아키텍처의 목표는 필요한 시스템을 만들고 유지보수 하는 데 투입되는 인력을 최소화하는 데 있다.</p>
+</blockquote>
+
+<p>아, 문득 이런 생각이 든다. 투입되는 인력이 최소화되어서 우리 회사가 더는 날 필요로 하지 않으면 어쩌지….😂</p>
+
+<p>저자는 이를 뒷받침하는 여러 차트를 보여주는데 꽤 흥미로웠다.<br />
+그래프와 설명이 모두 보고 이해하기 쉬웠다. TDD에 관한 그래프도 있었는데, 우리 회사 엔지니어 매니저가 항상 TDD를 강조하셔서 조금 더 흥미롭게 느껴졌다.</p>
+
+<p>당연하지만 기본적인 프로그래머의 자세에 대해 다시 한번 생각해 볼 수 있는 챕터였다.</p>
+
+<p>우리는 무엇이 좋은 아키텍처의 조건인지, 그리고 훌륭한 아키텍처를 만들기 위해서 우리가 할 수 있는 일은 무엇인지에 관해서 토론하였다. 오늘 북클럽을 하면서 같이 일하는 개발자들이 무엇을 중시하는지 조금 더 이해할 수 있었다.</p>
+
+<p>아, 이 책이 끝나는 날. 우리의 생각이 얼마나 바뀌었는지도 이야기해보기로 했다.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
 
 
   
-    
-      <section id="blog" class="taxonomy__section">
-        <h2 class="archive__subtitle"><i class="fas fa-fw fa-folder-open"></i>  Blog</h2>
-        <div class="entries-list">
-          
-            
 
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
     
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/blog/about/" rel="permalink">블로그 시작!
-</a>
-      
-    </h2>
+      <a href="/categories/#review" class="page__taxonomy-item" rel="tag">review</a>
     
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
+    </span>
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">토론토(캐나다)에서 공부, 일 하는 이야기
-</p>
-  </article>
-</div>
 
-          
-        </div>
-        <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
-      </section>
-    
+
   
-    
-      <section id="work-culture" class="taxonomy__section">
-        <h2 class="archive__subtitle"><i class="fas fa-fw fa-folder-open"></i>  Work-Culture</h2>
-        <div class="entries-list">
-          
-            
 
 
+  
 
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
     
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/work-culture/engineering-work-culture/" rel="permalink">엔지니어팀 문화
-</a>
-      
-    </h2>
+      <a href="/tags/#book-review" class="page__taxonomy-item" rel="tag">book review</a><span class="sep">, </span>
     
-
-  <p class="page__meta">
+      <a href="/tags/#bookclub" class="page__taxonomy-item" rel="tag">bookclub</a><span class="sep">, </span>
     
-
+      <a href="/tags/#clean-architecture" class="page__taxonomy-item" rel="tag">clean architecture</a>
     
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          4 minute read
-        
-      </span>
-    
+    </span>
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">현재 개발자로 일하고 있는 캐나다 토론토에 위치한 e-commerce 회사 개발팀 문화
-</p>
-  </article>
-</div>
-
-          
-        </div>
-        <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
-      </section>
-    
-  
-    
-      <section id="coding" class="taxonomy__section">
-        <h2 class="archive__subtitle"><i class="fas fa-fw fa-folder-open"></i>  coding</h2>
-        <div class="entries-list">
-          
-            
 
 
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/coding/markdown-syntax/" rel="permalink">Markdown Syntax for blog
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
         
-          3 minute read
-        
-      </span>
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-08-05">August 5, 2021</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
     
-  </p>
+      <a href="/practice/small-project-setup/" class="pagination--pager" title="TypeScript Project Quickstart with test
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
 
+    </div>
 
-    <p class="archive__item-excerpt" itemprop="description">HTML tags and formatting for blog - jekyll: minimal mistakes theme
-</p>
+    
   </article>
-</div>
 
-          
-        </div>
-        <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
-      </section>
-    
   
-    
-      <section id="practice" class="taxonomy__section">
-        <h2 class="archive__subtitle"><i class="fas fa-fw fa-folder-open"></i>  practice</h2>
-        <div class="entries-list">
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
           
-            
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -563,27 +531,17 @@
   </article>
 </div>
 
+        
           
-        </div>
-        <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
-      </section>
-    
-  
-    
-      <section id="review" class="taxonomy__section">
-        <h2 class="archive__subtitle"><i class="fas fa-fw fa-folder-open"></i>  review</h2>
-        <div class="entries-list">
-          
-            
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/review/review-clean-architecture/" rel="permalink">[북클럽 리뷰] Clean Architecture - ch1
+        <a href="/coding/markdown-syntax/" rel="permalink">Markdown Syntax for blog
 </a>
       
     </h2>
@@ -601,28 +559,105 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          1 minute read
+          3 minute read
         
       </span>
     
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">인트로, 1장 - 설계와 아키텍쳐란
+    <p class="archive__item-excerpt" itemprop="description">HTML tags and formatting for blog - jekyll: minimal mistakes theme
 </p>
   </article>
 </div>
 
+        
           
-        </div>
-        <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
-      </section>
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
-  
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/work-culture/engineering-work-culture/" rel="permalink">엔지니어팀 문화
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
 
 
-  </div>
+    <p class="archive__item-excerpt" itemprop="description">현재 개발자로 일하고 있는 캐나다 토론토에 위치한 e-commerce 회사 개발팀 문화
+</p>
+  </article>
 </div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/about/" rel="permalink">블로그 시작!
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">토론토(캐나다)에서 공부, 일 하는 이야기
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
     </div>
 
     
