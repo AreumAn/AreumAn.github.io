@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-05T17:18:25-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Areum An</title><subtitle>Areum An's blog for sharing anything I want</subtitle><author><name>Areum An</name></author><entry><title type="html">[북클럽 리뷰] Clean Architecture - ch1</title><link href="http://localhost:4000/review/review-clean-architecture/" rel="alternate" type="text/html" title="[북클럽 리뷰] Clean Architecture - ch1" /><published>2021-08-05T00:00:00-04:00</published><updated>2021-08-05T00:00:00-04:00</updated><id>http://localhost:4000/review/review-clean-architecture</id><content type="html" xml:base="http://localhost:4000/review/review-clean-architecture/">&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-08-16T12:41:42-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Areum An</title><subtitle>Areum An's blog for sharing anything I want</subtitle><author><name>Areum An</name></author><entry><title type="html">[북클럽 리뷰] Clean Architecture - ch2, ch3</title><link href="http://localhost:4000/review/review-clean-architecture-01/" rel="alternate" type="text/html" title="[북클럽 리뷰] Clean Architecture - ch2, ch3" /><published>2021-08-16T00:00:00-04:00</published><updated>2021-08-16T00:00:00-04:00</updated><id>http://localhost:4000/review/review-clean-architecture-01</id><content type="html" xml:base="http://localhost:4000/review/review-clean-architecture-01/">&lt;h2 id=&quot;ch2---a-tale-of-two-values&quot;&gt;ch2 - A Tale of Two Values&lt;/h2&gt;
+&lt;p&gt;저자는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2장 두 가지 가치에 대한 이야기&lt;/code&gt;에서 행위와 아키텍쳐를 소프트웨어의 두 가지 가치로 뽑는다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;행위: 프로그래머는 이해관계자가 기능 명세서나 요구사항 문서를 구체화 할 수 있도록 돕는다.&lt;/li&gt;
+    &lt;li&gt;아키텍쳐: 변경사항을 간단하고 쉽게 적용할 수 있어야한다.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;가끔 명확하지 않은 요구사항에 조금 짜증 날 때가 있었는데, 생각해보면 이해관계자들은 시스템을 잘 모르기 때문에 몰라서 그렇다는 생각이 든다.&lt;br /&gt;
+사사로운 것보다 같은 목적을 향해가는 것에 초점을 맞춰 일을 했어야 하는데..하며 반성을 하게 되었다. 
+이해관계자들이 원하는 것을 더 잘 귀기울여 듣고 해결책을 제안하는 개발자가 되어야겠다고 생각했다.&lt;/p&gt;
+
+&lt;p&gt;이 챕터에서는 아이젠하워 매트릭스를 보여준다. 이름만 들으면 갸우뚱 할텐데 직장을 다닌다면 한번쯤은 들었을 것이다. 일의 우선순위에 관한 내용인데 아래와 같다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;긴급하고 중요한&lt;/li&gt;
+    &lt;li&gt;긴급하지 않지만 중요한&lt;/li&gt;
+    &lt;li&gt;긴급하지만 중요하지 않은&lt;/li&gt;
+    &lt;li&gt;긴급하지도 중요하지도 않은&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;저자는 아키텍쳐가 후 순위가 되지 않도록 소프트웨어팀은 투쟁해야 한다면서 이 챕터를 마쳤다.&lt;/p&gt;
+
+&lt;p&gt;다행히도, 내가 일하는 회사는 아키텍쳐를 위해 투쟁하지 않아도 다른 팀들이 아키텍쳐의 중요성을 잘 이해하고 있다. 지금 눈 앞에 것 때문에 서두르는 것 보다 본질을 보려고 모든 팀이 함께 노력한다.&lt;/p&gt;
+
+&lt;h2 id=&quot;ch3---paradigm-overview&quot;&gt;ch3 - Paradigm overview&lt;/h2&gt;
+&lt;p&gt;아키텍쳐의 중요성에 대해 그동안 이야기 했다면, 이번 챕터부터는 좀 더 기술적인 내용들로 좋은 아키텍쳐에 대해서 서술한다.
+코드의 역사와 세가지 패러다임인 구조적 프로그래밍, 객체지향 프로그래밍, 함수형 프로그래밍에 대해 역사와 요약을 제공한다.&lt;/p&gt;
+
+&lt;p&gt;흥미로운 점은 이런 패러다임이 프로그래머에게 제약 조건을 준다는 것이다. 즉, 우리가 하지 말아야할 것을 말해준다. 또한 이런 제약을 주는 패러다임은 1958년부터 1968년에 걸친 10년간 모두 만들어졌으며 새로 등장한 패러다임이 없다는 것이었다.&lt;/p&gt;
+
+&lt;h2 id=&quot;this-week-conclusion&quot;&gt;This week conclusion&lt;/h2&gt;
+&lt;p&gt;매일 북클럽을 하면서 좋은 개발자의 자세에 대해 생각해보고 지난 날 서툴렀던 행동에 대해 반성하는 시간을 갖는 것 같다. 한편으로는 이렇게 좋은 방향으로 나아갈 수 있는 기회가 지금이라도 주어졌음에 감사한다. 다음 장부턴 조금 더 기술적인 내용이 들어가서 약간 지루 할 것도 같고, 어려울 것도 같은데! 다른 더 경험 많은 개발자들과 토론 할 수 있게 열심히 읽어봐야겠다.&lt;/p&gt;</content><author><name>Areum An</name></author><category term="review" /><category term="bookclub" /><category term="clean architecture" /><category term="book review" /><summary type="html">2장 두 가지 가치에 대한 이야기, 3장 패러다임 개요</summary></entry><entry><title type="html">[북클럽 리뷰] Clean Architecture - ch1</title><link href="http://localhost:4000/review/review-clean-architecture/" rel="alternate" type="text/html" title="[북클럽 리뷰] Clean Architecture - ch1" /><published>2021-08-05T00:00:00-04:00</published><updated>2021-08-05T00:00:00-04:00</updated><id>http://localhost:4000/review/review-clean-architecture</id><content type="html" xml:base="http://localhost:4000/review/review-clean-architecture/">&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
 &lt;p&gt;회사에서 매주 목요일 북클럽을 진행한다.&lt;br /&gt;
 몇 달간 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;실용주의 프로그래머&lt;/code&gt;로 진행했고, 이번 주부터는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;클린 아키텍처&lt;/code&gt;라는 책으로 진행된다.&lt;br /&gt;
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;클린 아키텍처&lt;/code&gt;는 개발팀 내에서 책을 추천해서 다수결로 선정되었다.&lt;br /&gt;
